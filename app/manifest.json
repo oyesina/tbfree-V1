@@ -1,0 +1,11 @@
+{
+  "name": "TB Free",
+  "short_name": "TB Free",
+  "description": "Free TB information, self-check, treatment support and screening tools. Works offline.",
+  "start_url": "./index.html#/home",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7faf9",
+  "theme_color": "#0b6b57",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

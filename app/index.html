@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b6b57">
+<meta name="description" content="Free tool for TB awareness, self-check, treatment support, health-worker screening and programme data. Works offline. No account.">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<title>TB Free</title>
+</head>
+<body>
+<a class="skip" href="#view">Skip to content</a>
+<header>
+  <a class="brand" href="#/home" aria-label="TB Free home"><img src="icon.svg" alt="" width="28" height="28"> TB Free</a>
+  <label class="lang"><span class="sr">Language</span><select id="lang"></select></label>
+</header>
+<main id="view" tabindex="-1" aria-live="polite"></main>
+<nav id="nav" aria-label="Main"></nav>
+<noscript><p style="padding:1rem">TB Free needs JavaScript. TB is curable and testing and treatment are free: visit any government health centre if you have a cough lasting 2 weeks or more.</p></noscript>
+<script src="logic.js"></script>
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
